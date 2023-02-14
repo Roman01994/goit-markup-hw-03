@@ -11,67 +11,87 @@
 			href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
 			rel="stylesheet"
 		/>
+		<link href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css" rel="stylesheet" />
 		<link rel="stylesheet" href="./css/styles.css" />
 	</head>
 	<body>
 		<header>
 			<!-- Nav Section -->
-			<nav>
-				<a class="logo link" href="./index.html">Web<span class="header-text-studio">Studio</span></a>
+
+			<nav class="menu">
+				<div class="logo">
+					<a class="logo link" href="./index.html">Web<span class="header-text-studio">Studio</span></a>
+				</div>
+
 				<ul>
-					<li><a class="nav-link link" href="./studio.html">Studio</a></li>
-					<li><a class="nav-link link" href="./portfolio.html">Portfolio</a></li>
-					<li><a class="nav-link link" href="">Contacts</a></li>
+					<li class="menu-item"><a class="nav-link link" href="./studio.html">Studio</a></li>
+					<li class="menu-item"><a class="nav-link link" href="./portfolio.html">Portfolio</a></li>
+					<li class="menu-item"><a class="nav-link link" href="">Contacts</a></li>
 				</ul>
 			</nav>
+
 			<!-- /Nav Section -->
 
 			<!-- Address Section -->
 			<address>
 				<ul>
-					<li>
-						<a class="contacts-email link" href="mailto:info@devstudio.com">info@devstudio.com</a>
-					</li>
+					<div class="email">
+						<li>
+							<a class="contacts-email link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+						</li>
+					</div>
 
-					<li>
-						<a class="contacts-number" href="tel:+110001111111">+11 (000) 111-11-11</a>
-					</li>
+					<div class="tel">
+						<li>
+							<a class="contacts-number" href="tel:+110001111111">+11 (000) 111-11-11</a>
+						</li>
+					</div>
 				</ul>
 			</address>
 			<!-- /Address Section -->
 		</header>
+
+		<div class="container-hero"></div>
 		<main>
 			<!-- Hero Section-->
 
 			<section class="hero">
-				<h1 class="title">Effective Solutions Your Business</h1>
+				<h1 class="hero-title">Effective Solutions Your Business</h1>
 				<button class="button order-service" type="button">Order Service</button>
 			</section>
 			<!-- /Hero Section-->
 
-			<!--Apside Section  -->
-			<section>
-				<h2 class="visually-hidden">Upside</h2>
-				<ul>
-					<li>
-						<h3 class="future">Strategy</h3>
-						<p> Our goal is to identify the business problem to walk away with the perfect and creative solution. </p>
-					</li>
-					<li>
-						<h3 class="future">Punctuality</h3>
-						<p> Bring the key message to the brand's audience for the best price within the shortest possible time. </p>
-					</li>
-					<li>
-						<h3 class="future">Diligence</h3>
-						<p>
-							Research and confirm brands that present the strongest digital growth opportunities and minimize risk.
-						</p>
-					</li>
-					<li>
-						<h3 class="future">Technologies</h3>
-						<p> Design practice focused on digital experiences. We bring forth a deep passion for problem-solving. </p>
-					</li>
-				</ul>
+			<!--Future Section  -->
+			<section class="section-future">
+				<div class="container-future">
+					<h2 class="visually-hidden">Future</h2>
+					<ul>
+						<li>
+							<h3 class="future-list">Strategy</h3>
+							<p class="future-list-item">
+								Our goal is to identify the business problem to walk away with the perfect and creative solution.
+							</p>
+						</li>
+						<li>
+							<h3 class="future-list">Punctuality</h3>
+							<p class="future-list-item">
+								Bring the key message to the brand's audience for the best price within the shortest possible time.
+							</p>
+						</li>
+						<li>
+							<h3 class="future-list">Diligence</h3>
+							<p class="future-list-item">
+								Research and confirm brands that present the strongest digital growth opportunities and minimize risk.
+							</p>
+						</li>
+						<li>
+							<h3 class="future-list">Technologies</h3>
+							<p class="future-list-item">
+								Design practice focused on digital experiences. We bring forth a deep passion for problem-solving.
+							</p>
+						</li>
+					</ul>
+				</div>
 			</section>
 			<!--/Apside Section  -->
 
