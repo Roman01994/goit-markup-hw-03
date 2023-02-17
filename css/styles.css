@@ -117,8 +117,8 @@ ul {
 	letter-spacing: 0.02em;
 	color: var(--secondary-font-color);
 }
-.nav-link:hover,
-.nav-link:focus {
+.page-nav-list:hover,
+.page-nav-list:focus {
 	color: var(--active-nav-color);
 }
 
