@@ -326,12 +326,12 @@ address{
 .footer .page-nav-logo {
 	display: inline-block;
 	margin-top: auto;
-	margin-bottom: 16px;
+	padding-bottom: 16px;
 }
 .footer {
 	background-color: var(--secondary-bg-color);
-	padding-bottom: 60px;
-	padding-top: 60px;
+	padding-bottom: 100px;
+	padding-top: 100px;
 }
 
 .footer .second-part-logo {
